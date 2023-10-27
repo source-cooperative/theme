@@ -1,0 +1,29 @@
+{
+  "name": "@source-cooperative/theme",
+  "version": "1.0.0",
+  "description": "theme for styling our websites",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write 'index.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/source-cooperative/theme.git"
+  },
+  "keywords": [
+    "theme-ui",
+    "source-cooperative"
+  ],
+  "author": "freeman-lab",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/source-cooperative/theme/issues"
+  },
+  "dependencies": {
+    "@theme-ui/prism": "^0.15.5"
+  },
+  "devDependencies": {
+    "prettier": "2.3.0"
+  },
+  "homepage": "https://github.com/source-cooperative/theme#readme"
+}
