@@ -1,6 +1,6 @@
 {
   "name": "@source-cooperative/theme",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "theme for styling our websites",
   "main": "index.js",
   "scripts": {
