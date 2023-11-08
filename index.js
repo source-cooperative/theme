@@ -1,5 +1,3 @@
-import prism from "@theme-ui/prism/presets/prism.json";
-
 module.exports = {
   space: [0, 4, 8, 16, 24, 32, 48, 64, 96, 128, 172, 256, 512],
   fonts: {
@@ -331,6 +329,16 @@ module.exports = {
       borderWidth: "0px",
       borderColor: "secondary",
       pl: 0
+    }
+  },
+  text: {
+    link: {
+      color: "text",
+      textDecoration: "underline",
+      "&:hover": {
+        color: "secondary",
+        textDecoration: "none"
+      }
     }
   },
   alerts: {
